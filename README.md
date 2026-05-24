@@ -1,10 +1,10 @@
-# 🐾 HomeAnimal – Java OOP Task
+#  HomeAnimal – Java OOP Task
 
 A Java project demonstrating **class hierarchies**, **interfaces**, and **bounded generics** through an animal management system.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -21,10 +21,10 @@ src/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 
-## 🧩 Task Breakdown
+##  Task Breakdown
 
 ### a) Class Hierarchy
 
@@ -86,7 +86,7 @@ HomeAnimal<Cat> homeCat = new HomeAnimal<>(new Cat("Whiskers"));
 
 ---
 
-## 💻 Output
+##  Output
 
 ```
 Rex the dog is running!
@@ -104,7 +104,7 @@ Shark cannot be a HomeAnimal! (compile error if you try)
 
 ---
 
-## 🧠 Key OOP Concepts
+##  Key OOP Concepts
 
 | Concept | Where Used |
 |---|---|
@@ -116,7 +116,7 @@ Shark cannot be a HomeAnimal! (compile error if you try)
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - The `Shark` line in `Main.java` is intentionally commented out to demonstrate that the compiler **prevents** invalid usage of `HomeAnimal` — uncomment it to see the compile error yourself.
 - `getClass().getSimpleName()` is used in `showType()` to retrieve the runtime type name dynamically.
